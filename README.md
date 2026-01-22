@@ -14,3 +14,5 @@ Projeto de clone da plataforma tabnews para o curso.dev
   - Local vs Remoto
   - C.I.: Continous Integrator (máquina intermediária que executa testes e automações e decide se pode mergear ou não)
   - Build: Construir uma versão otimizada e pronta para ser executada no servidor
+  - **Principle of Least Privilege** ou **Princípio do Menor Privilégio** ou **Princípio do Privilégio Mínimo**: Para maior segurança dos sistemas construídos é recomendável sempre atribuir a menor quantidade de acesso, credenciais, privilégios que uma conta pode ter dentro de um sistema.
+  - Tecnologia e Negócio andam juntos, devemos ver os dois.
