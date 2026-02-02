@@ -2,6 +2,11 @@
 
 Projeto de clone da plataforma tabnews para o curso.dev
 
+## Guia de Inicialização
+
+1. `npm i`
+2. `npm run dev`
+
 # Aprendizados
 
 - `node_modules` é a pasta onde ficam todas as dependências do projeto Node.js (bibliotecas, sub-bibliotecas, versões específicas, etc.).
