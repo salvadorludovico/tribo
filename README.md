@@ -23,3 +23,7 @@ Projeto de clone da plataforma tabnews para o curso.dev
   - Build: Construir uma versão otimizada e pronta para ser executada no servidor
   - **Principle of Least Privilege** ou **Princípio do Menor Privilégio** ou **Princípio do Privilégio Mínimo**: Para maior segurança dos sistemas construídos é recomendável sempre atribuir a menor quantidade de acesso, credenciais, privilégios que uma conta pode ter dentro de um sistema.
   - Tecnologia e Negócio andam juntos, devemos ver os dois.
+
+# Arquitetura MVC (Model-View-Controller)
+
+- Models: caixa de ferramentas, onde cada ferramenta é um model que faz algo útil e pode ser utilizado para construir o sistema
