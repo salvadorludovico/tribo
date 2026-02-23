@@ -14,13 +14,14 @@
   "author": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev",
+    "dev": "npm run services:up && next dev",
+    "services:up": "docker compose --file=infra/compose.yaml up -d",
+    "services:stop": "docker compose --file=infra/compose.yaml stop",
+    "services:down": "docker compose --file=infra/compose.yaml down",
     "lint:check": "prettier --check .",
     "lint:fix": "prettier --write .",
     "test": "jest",
-    "test:watch": "jest --watchAll",
-    "db": "docker compose --file=infra/compose.yaml up -d",
-    "db:down": "docker compose --file=infra/compose.yaml down"
+    "test:watch": "jest --watchAll"
   },
   "dependencies": {
     "next": "^13.1.6",
