@@ -27,3 +27,5 @@ Projeto de clone da plataforma tabnews para o curso.dev
 # Arquitetura MVC (Model-View-Controller)
 
 - Models: caixa de ferramentas, onde cada ferramenta é um model que faz algo útil e pode ser utilizado para construir o sistema
+
+- https://node-postgres.com/
